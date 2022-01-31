@@ -16,6 +16,7 @@ contenente diverse frasi. Prendere il paragrafo e
  suddividerlo in tanti paragrafi. Ogni punto un nuovo paragrafo. -->
 
 <?php
+    // SNACK 1
     // $name = $_GET['name'];
     // $mail = $_GET['mail'];
     // $age = $_GET['age'];
@@ -24,6 +25,8 @@ contenente diverse frasi. Prendere il paragrafo e
     // } else {
     //     $accesso = 'accesso negato';
     // }
+
+    // SNACK 2
     // $posts = [
 
     //     '10/01/2019' => [
@@ -65,6 +68,7 @@ contenente diverse frasi. Prendere il paragrafo e
     // ];
     // print_r($posts);
 
+        //SNACK 3 
 
     // $mynum = [];
     // $i = 0;
@@ -77,7 +81,7 @@ contenente diverse frasi. Prendere il paragrafo e
     //         $i++;
     //     } 
     // }
-
+        // SNACK 4
     $paragrafo = "Molteplici furono i passi che portarono alla nascita di questa disciplina. Il primo, sia a livello di importanza sia di ordine cronologico, è l’avvento dei calcolatori e il continuo interesse rivolto a essi. Già nel 1623, grazie a Willhelm Sickhart, si arrivò a creare macchine in grado di effettuare calcoli matematici con numeri fino a sei cifre, anche se non in maniera autonoma. Nel 1642 Blaise Pascal costruì una macchina in grado di fare operazioni utilizzando il riporto automatico, mentre nel 1674 Gottfried Wilhelm von Leibniz creò una macchina in grado di effettuare la somma, la differenza e la moltiplicazione in maniera ricorsiva. Tra il 1834 e il 1837 Charles Babbage lavorò al modello di una macchina chiamata macchina analitica, le cui caratteristiche anticiparono in parte quelle dei moderni calcolatori. Nel ventesimo secolo l’attenzione sui computer ritornò ad accendersi: nel 1937, ad esempio, Claude Shannon, all’università di Yale, mostrò come l’algebra booleana e le operazioni binarie potessero rappresentare il cambiamento circuitale all’interno dei telefoni.";
     $pieces = explode(".", $paragrafo);
     for ($i = 0; $i < count($pieces); $i++) {
