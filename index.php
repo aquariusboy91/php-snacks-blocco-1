@@ -66,7 +66,7 @@ altrimenti “Accesso negato” -->
     while ($i <= 15) { 
         $rand = rand(1,100);
         $mynum[] = $rand;
-        echo $mynum[$i] ;
+        echo $mynum[$i] . ' ' ;
         $i++; 
     }
   
